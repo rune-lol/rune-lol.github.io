@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="VKV.css"></link>
+    <title>Project Phoenix | VKV</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><h1 id="titel">Phoenix</h1></a>
+        <hr>
+    </header>
+
+    <div class="mainBody">
+        <div id="input">
+            <div class="input_div" id="a">
+                <span>A:</span>
+                <input id="a_input" type="number">    
+            </div>
+            <div class="input_div" id="b">
+                <span>B:</span>
+                <input id="b_input" type="number">    
+            </div>
+            <div class="input_div" id="c">
+                <span>C:</span>
+                <input id="c_input" type="number">    
+            </div>
+            <div id="button">
+                <input type="button" value="Calculate" onclick="calculate()">
+            </div>
+        </div>
+        <hr>
+        <div id="output">
+            <p>In the form of: ax² + bx + c = 0</p>
+            <p id="outputFormula"></p>
+            <p id="outputDiscriminant"></p>
+            <p id="outputNulwaarden"></p>
+        </div>
+    </div>
+
+    <script src="VKV.js"></script>
+</body>
+</html>
